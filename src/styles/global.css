@@ -22,12 +22,29 @@
 
 .heading {
   position: absolute;
-  top: 50px;
+  /* top: 50px; */
+  top: 5.2%;
   left: 7.5%;
   font-size: 2rem;
+  color: var(--white);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
 }
 
 .pastaIcon {
   transform: scale(1.4);
   margin-right: 10px;
+}
+
+.addIcon {
+  color: white;
+  transform: scale(3.4);
+  position: absolute;
+  bottom: 5.2%;
+  color: var(--white);
+  left: 9%;
+}
+
+.addIcon:active {
+  transform: scale(4);
 }
