@@ -8,8 +8,8 @@
   min-height: 100vh;
 
   color: white;
-  background-color: #0F0003;
-  background-image: url("/public/foodPattern.png");
+  background-color: #0f0003;
+  background-image: url('/public/foodPattern.png');
 
   font-family: Roboto, sans-serif;
   font-size: 40px;
@@ -17,4 +17,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  top: 50px;
+  left: 7.5%;
+  font-size: 2rem;
+}
+
+.pastaIcon {
+  transform: scale(1.4);
+  margin-right: 10px;
 }

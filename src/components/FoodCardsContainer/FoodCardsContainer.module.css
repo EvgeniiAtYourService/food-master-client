@@ -3,8 +3,16 @@
   overflow-y: hidden;
   overflow-x: scroll;
   white-space: nowrap;
+  position: relative;
+  z-index: 10000;
 }
 
 .foodCardsContainer::-webkit-scrollbar {
     display: none;
 }
+
+/* .heading {
+    color: white;
+    position: absolute;
+    top: -20px;
+} */
