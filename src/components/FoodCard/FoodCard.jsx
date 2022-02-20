@@ -4,7 +4,6 @@ import cn from 'classnames'
 import getPattern from './getPattern'
 
 export const FoodCard = () => {
-  
   return (
     <div className={styles.foodCard}>
       <img
@@ -13,6 +12,7 @@ export const FoodCard = () => {
         className={styles.foodImg}
       />
       <div className={cn(styles.nameContainer, getPattern())}>
+        <p className={styles.author}>by JekaJSX</p>
         <h2 className={styles.foodName}>Arrabiata</h2>
       </div>
     </div>
