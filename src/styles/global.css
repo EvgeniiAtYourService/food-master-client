@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  color: white;
+  background-color: #0F0003;
+  background-image: url("/public/foodPattern.png");
+
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+}
