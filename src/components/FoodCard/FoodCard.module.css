@@ -4,14 +4,10 @@
 
   background-color: #4d2600;
   border-radius: 15px;
-  box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 10px 10px 6px 0px rgba(8, 8, 8, 0.5);
 
-  /* comment to delete */
-  position: relative;
-  top: 140px;
-  margin: 0 auto;
-  /* comment to delete */
-
+  display: inline-block;
+  margin: 0 7.5%;
 }
 
 .foodImg {
@@ -21,7 +17,6 @@
 }
 
 .nameContainer {
-  /* height: 230px; */
   height: 250px;
   border-radius: 0 0 15px 15px;
   position: relative;
@@ -30,9 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: #4d2600;
-  background: repeating-linear-gradient( -45deg, #0F0003, #0F0003 5px, #4d2600 5px, #4d2600 25px );
 }
 
 .foodName {

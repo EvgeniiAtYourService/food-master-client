@@ -1,9 +1,9 @@
 import './styles/global.css'
-import { FoodCard } from './components/index'
+import { FoodCardsContainer } from './components/index'
 
 function App() {
   return <div className="App">
-    <FoodCard />
+    <FoodCardsContainer />
   </div>
 }
 

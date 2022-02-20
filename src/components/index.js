@@ -1,1 +1,1 @@
-export * from './FoodCard/FoodCard'
+export * from './FoodCardsContainer/FoodCardsContainer'

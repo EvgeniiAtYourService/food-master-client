@@ -1,0 +1,10 @@
+.foodCardsContainer {
+  height: 500px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.foodCardsContainer::-webkit-scrollbar {
+    display: none;
+}
