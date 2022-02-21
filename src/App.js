@@ -7,7 +7,7 @@ import MediaQuery from 'react-responsive'
 function App() {
   return (
     <div className="App">
-    <MediaQuery minWidth={415}><h2 className="heading">No Desktop/Tablet version yet</h2></MediaQuery>
+    <MediaQuery minWidth={415}><h2 className="heading" style={{color: 'red'}}>No Desktop/Tablet version yet</h2></MediaQuery>
     <MediaQuery maxWidth={415}>
       <h2 className="heading">
         <DinnerDiningOutlinedIcon className="pastaIcon" />
