@@ -7,6 +7,7 @@ export const FoodCard = () => {
   return (
     <div className={styles.foodCard}>
       <img
+      // src="foodImg.jpg"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGvK2tzTsJUBBSYBMcIidQi0iGnWG0VORcmw&usqp=CAU"
         alt="food"
         className={styles.foodImg}

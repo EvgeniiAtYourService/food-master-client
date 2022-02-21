@@ -44,4 +44,7 @@
   background-color: rgba(0, 0, 0, 0.3);
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.9);
+  max-width: 89%;
+  white-space: nowrap;
+  overflow: hidden;
 }
